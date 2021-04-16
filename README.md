@@ -12,3 +12,7 @@ You need Python 3. Install The modules from the python files using <kbd>pip inst
 Run the program with <kbd>python main.py</kbd> or <kbd>python main.py</kbd>. You will be prompted to enter the scrambled word. It will print the possible words. 
 
 ![Alt Text](https://github.com/fineans/word-unscrambler/blob/main/wordunscrambler.gif)
+
+
+
+© Fineans 2021
