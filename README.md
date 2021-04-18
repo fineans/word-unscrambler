@@ -1,6 +1,6 @@
 # 🧮 Word Unscrambler
 
-Just a tiny terminal app that can unscramble words!
+• Just a tiny terminal app that can unscramble words •
 
 ## 🔨 Setup
 
