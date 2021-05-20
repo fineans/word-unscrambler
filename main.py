@@ -54,8 +54,10 @@ while True:
     v = Vect2Int(Word2Vect(s))
     tp = ind.get(v, 'Word Not in Dictionary.')
     print(tp)
+    takein = input('Restart? [y/n]')
     if tp == 'Word Not in Dictionary.':
-        if input('Would you like to add it? [y/n]') == 'y' or input('Would you like to add it? [y/n]') == 'Y':
+        addtru = input('Would you like to add it? [y/n]')
+        if addtru == 'y' or addtru == 'Y':
             wta = str(input('What is the word you would like to add? '))
             dicopen = open("DL.txt", "a")
             dicopen.write('\n')
@@ -64,8 +66,5 @@ while True:
             d = GetDic()
             ind = Ints2Dic(d)
             print('Dictionary Updated')
-    if input('Restart? [y/n]') == 'y' or input('Restart? [y/n]') == 'Y':
-        pass
-    else:
+    if takein == 'n' or takein == 'N':
         break
-
