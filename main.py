@@ -64,8 +64,8 @@ while True:
             d = GetDic()
             ind = Ints2Dic(d)
             print('Dictionary Updated')
-    if input('Restart? [y/n]') == 'y' or input('Restart? [y/n]') == 'Y':
-        pass
-    else:
+    if input('Restart? [y/n]') == 'n' or input('Restart? [y/n]') == 'N':
         break
+    else:
+        pass
 
